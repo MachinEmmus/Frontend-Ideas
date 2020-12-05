@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  body {
+    background: #eee;
+  }
+  
+  h1, h2 {
+    margin-bottom: .5em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em 5%;
+    background: #fff;
+  }
+  .component {
+    width: 100%;
+    border: 1px orange solid;
+  }
+  .component__header {
+    font-size: 2rem;
+    background-color: orange;
+    color: white;
+    padding: 0.75em 3rem;
+    margin: 0;
+  }
+  .component__header--large {
+   font-size: 3rem;
+  }
+  .component__content {
+   font-size: 1rem;
+   padding: 1.5em 3rem;
+   margin: 0;
+  }
+  
+  @media (min-width: 1200px) {
+    html {
+      font-size: 125%;
+    }
+  }
