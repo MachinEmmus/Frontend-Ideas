@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+  }
+  
+  div {
+    background-image: url(http://dragonball.sullca.com/wp-content/uploads/2015/07/Dragon-Ball-Super-online.jpg);
+    background-size: cover;
+    
+    /*IMPORTANTE*/
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+  }
